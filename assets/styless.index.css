@@ -35,11 +35,16 @@ header{
     border-radius: 6px;
     height: 100px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
 }
 
+#profile-image {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
 #principal {
     display: flex;
     height: 800px;
