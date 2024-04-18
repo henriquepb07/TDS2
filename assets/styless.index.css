@@ -14,7 +14,7 @@
 body {
     background-color:rgb(148, 240, 137);
     font-family: "Sedan", sans-serif;
-    color: #65e572;
+    color: #45824b;
     padding: 10px;
 }
 
@@ -25,7 +25,7 @@ h2 {
 
 p{
     text-align: center;
-    color:rgb(2, 2, 2)
+    color:rgb(0, 0, 0)
 }
 
 header{
@@ -50,13 +50,13 @@ header{
 }
 
 main {
-    background-color: #2e7435;
+    background-color: #89c48f;
     border-radius: 6px;
     height: 80%;
     width: 74%;
 }
 aside {
-    background-color: darkseagreen;
+    background-color: rgb(109, 166, 109);
     border-radius: 6px;
     width: 25%;
 }
