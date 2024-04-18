@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap');
+.sedan-regular {
+    font-family: "Sedan", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:rgb(148, 240, 137);
+    font-family: "Sedan", sans-serif;
+    color: #65e572;
+    padding: 10px;
+}
+
+h2 {
+    text-align: center;
+    color:rgb(225, 17, 17);
+}
+
+p{
+    text-align: center;
+    color:rgb(2, 2, 2)
+}
+
+header{
+    background-color:rgb(250, 244, 214);
+    backdrop-filter: blur(10px);
+    margin: 10px 0;
+    border-radius: 6px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#principal {
+    display: flex;
+    height: 800px;
+    width: 100%;
+    border-radius: 6px;
+    justify-content: space-between;
+
+}
+
+main {
+    background-color: #2e7435;
+    border-radius: 6px;
+    height: 80%;
+    width: 74%;
+}
+aside {
+    background-color: darkseagreen;
+    border-radius: 6px;
+    width: 25%;
+}
